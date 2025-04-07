@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: rgb(0, 12, 23); /* Gradient background */
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url("/static/bg/index.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+/* Header */
+h1 {
+    padding-top: 120px;
+    padding-left: 160px;
+    font-size: 4rem;
+    margin-bottom: 30px;
+    text-align:left center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Buttons */
+button {
+    background: rgb(7, 7, 159); 
+    color:white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 25px;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background: #6af3ff; /* Slightly darker coral */
+    color: black;
+    transform: scale(1.1);
+    box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+button:focus {
+    outline: none;
+}
+
+.btn{
+    margin-left: 220px;
+    margin-top: 50px;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+}
